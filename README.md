@@ -31,7 +31,7 @@ library(tidyverse)
 library(tidytext)
 ```
 
-### Content
+## Content
 
 The content of this repo is divided in three directories, each one
 containing different types of files.
@@ -46,7 +46,7 @@ containing different types of files.
     sentiment lexicons, also stored in R-Data (binary) files—one file
     per lexicon.
 
-### Harry Potter CSV file
+## Harry Potter CSV file
 
 The data of all the books is available in `csv` format:
 `harry_potter_books.csv`.
@@ -69,7 +69,7 @@ columns:
 
 3.  `chapter`: associated chapter number
 
-### Harry Potter R-Data Files
+## Harry Potter R-Data Files
 
 The data of each book is also available in its own R-Data `rda` file
 (see [rda-data-files/](rda-data-files)):
@@ -112,7 +112,7 @@ of chapters in this book: 17 chapters.
 You may want to use these files to perform bigram analysis (or other
 type of n-gram analysis).
 
-### Sentiment Lexicons
+## Sentiment Lexicons
 
 In addition to the Harry Potter text, you can also find data for a
 handful of sentiment lexicons from the R package `"textdata"` (by
