@@ -51,6 +51,9 @@ library(tidytext)
 ```
 
 
+-----
+
+
 ## Content
 
 The content of this repo is divided in three directories, each one containing
@@ -65,6 +68,8 @@ stored in R-Data (binary) files---one filer per book.
 - [sentiment-lexicons/](sentiment-lexicons) contains a handful of sentiment 
 lexicons, also stored in R-Data (binary) files---one file per lexicon.
 
+
+-----
 
 
 ## Harry Potter CSV file
@@ -94,6 +99,8 @@ and `r ncol(hp_books)` columns:
 
 3) `chapter`: associated chapter number
 
+
+-----
 
 
 ## Harry Potter R-Data Files
@@ -141,6 +148,8 @@ to the number of chapters in this book: 17 chapters.
 You may want to use these files to perform bigram analysis (or other type of
 n-gram analysis).
 
+
+-----
 
 
 ## Sentiment Lexicons
