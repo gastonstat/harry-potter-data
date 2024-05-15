@@ -1,6 +1,6 @@
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-## About
+# 1) About
 
 This repository contains various data files that can be used to perform
 a text analysis of [Harry
@@ -33,16 +33,16 @@ library(tidytext)
 
 ------------------------------------------------------------------------
 
-## Content
+# 2) Content
 
-The content of this repo is divided in three directories, each one
+The content of this repo is divided in **three directories**, each one
 containing different types of files.
 
 -   [csv-data-file/](csv-data-file) contains the text of all Harry
     Potter books in a single CSV file.
 
 -   [rda-data-files/](rda-data-files) contains the seven Harry Potter
-    books stored in R-Data (binary) files—one filer per book.
+    books stored in R-Data (binary) files—one file per book.
 
 -   [sentiment-lexicons/](sentiment-lexicons) contains a handful of
     sentiment lexicons, also stored in R-Data (binary) files—one file
@@ -50,9 +50,9 @@ containing different types of files.
 
 ------------------------------------------------------------------------
 
-## Harry Potter CSV file
+## 2.1) Harry Potter CSV file
 
-The data of all the books is available in `csv` format:
+The data of all the books is available in `csv` format—in a single file:
 `harry_potter_books.csv`.
 
 Assuming that this file is in your working directory, you can import
@@ -75,7 +75,7 @@ columns:
 
 ------------------------------------------------------------------------
 
-## Harry Potter R-Data Files
+## 2.2) Harry Potter R-Data Files
 
 The data of each book is also available in its own R-Data `rda` file
 (see [rda-data-files/](rda-data-files)):
@@ -120,7 +120,7 @@ type of n-gram analysis).
 
 ------------------------------------------------------------------------
 
-## Sentiment Lexicons
+## 2.3) Sentiment Lexicons
 
 In addition to the Harry Potter text, you can also find data for a
 handful of sentiment lexicons from the R package `"textdata"` (by
@@ -179,5 +179,5 @@ bing
 #>  8 abort       negative 
 #>  9 aborted     negative 
 #> 10 aborts      negative 
-#> # … with 6,776 more rows
+#> # ℹ 6,776 more rows
 ```
