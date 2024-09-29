@@ -145,23 +145,23 @@ Hvitfeldt and Silge):
     sentiments important in financial contexts: “negative”, “positive”,
     “litigious”, “uncertainty”, “constraining”, or “superfluous”.
 
-These lexicons come in `rda` data files (see
+These lexicons come in `CSV` data files (see
 [sentiment-lexicons/](sentiment-lexicons)):
 
--   `bing.rda`
--   `afinn.rda`
--   `bing.rda`
--   `loughran.rda`
+-   `bing.csv`
+-   `afinn.csv`
+-   `bing.csv`
+-   `loughran.csv`
 
-To import them in R, use the `load()` function. For example, here’s how
-to import the Bing lexicon:
+To import them in R, you can use the tidyverse `"readr"` function
+`read_csv()`. For example, here’s how to import the Bing lexicon:
 
 ``` r
-# assuming that the rda files are in your working directory
-load("bing.rda")
+# assuming that the csv files are in your working directory
+bing = read_csv("bing.csv")
 ```
 
-Assuming that you’ve loaded the file `"bing.rda"`, the associated
+Assuming that you’ve loaded the file `"bing.csv"`, the associated
 lexicon is available in the homonym tibble `bing`
 
 ``` r
