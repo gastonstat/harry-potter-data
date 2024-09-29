@@ -66,7 +66,7 @@ in a single CSV file.
 stored in R-Data (binary) files---one file per book.
 
 - [sentiment-lexicons/](sentiment-lexicons) contains a handful of sentiment 
-lexicons, also stored in R-Data (binary) files---one file per lexicon.
+lexicons, stored in CSV files---one file per lexicon.
 
 
 -----

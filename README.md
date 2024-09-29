@@ -45,8 +45,7 @@ containing different types of files.
     books stored in R-Data (binary) files—one file per book.
 
 -   [sentiment-lexicons/](sentiment-lexicons) contains a handful of
-    sentiment lexicons, also stored in R-Data (binary) files—one file
-    per lexicon.
+    sentiment lexicons, stored in CSV files—one file per lexicon.
 
 ------------------------------------------------------------------------
 
